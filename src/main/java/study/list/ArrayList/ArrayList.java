@@ -1,4 +1,4 @@
-package main.java.study;
+package main.java.study.list.ArrayList;
 
 // https://opentutorials.org/module/1335/8715
 public class ArrayList {
