@@ -98,7 +98,7 @@ public class LinkedList {
 			size++;
 			
 			// 새로운 노드의 다음 노드가 없다면 새로운 노드가 마지막 노드이기 때문에 tail로 지정
-			if(newNode.next == null) {
+			if(newNode.next == null) { 
 				tail = newNode;
 			}
 			
