@@ -77,7 +77,7 @@ public class LinkedList {
 		
 	}
 	
-	public void add(int k, Object input) {
+	public void add(int k, Object input) { 
 		// 만약 k가 0이라면 첫번째 노드에 추가하는 것이기 때문에 addFirst 사용
 		if(k == 0) {
 			addFirst(input);
