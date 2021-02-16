@@ -128,7 +128,7 @@ public class LinkedList {
 	    Node temp = node(k-1);
 	    
 	    // 삭제 노드를 todoDeleted에 저장
-	    // 삭제 노드를 지금 제거하면 삭제 앞 노드와 삭제 뒤 노드를 연결할 수 없습니다.  
+	    // 삭제 노드를 지금 제거하면 삭제 앞 노드와 삭제 뒤 노드를 연결할 수 없습니다.   
 	    Node todoDeleted = temp.next;
 	    
 	    // 삭제 앞 노드의 다음 노드로 삭제 뒤 노드를 지정
